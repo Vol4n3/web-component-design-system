@@ -1,4 +1,4 @@
-export class BaseButton extends HTMLButtonElement{
+export class BaseButton extends HTMLButtonElement {
   constructor() {
     super();
     // const shadow = this.attachShadow({mode: 'open'});
@@ -6,4 +6,5 @@ export class BaseButton extends HTMLButtonElement{
 
   }
 }
+
 customElements.define('ds-basebutton', BaseButton,{extends: "button"});
